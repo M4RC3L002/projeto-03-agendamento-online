@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T22:57:10.331860+00:00",
+  "title": "Design System: Forma",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Tinta verde",
+        "tonalRamp": [
+          "oklch(15% 0.04 165)",
+          "oklch(26% 0.04 165)",
+          "oklch(38% 0.04 165)",
+          "oklch(49% 0.04 165)",
+          "oklch(61% 0.04 165)",
+          "oklch(72% 0.04 165)",
+          "oklch(84% 0.04 165)",
+          "oklch(95% 0.04 165)"
+        ]
+      },
+      "green": {
+        "role": "primary",
+        "displayName": "Verde profundo",
+        "tonalRamp": [
+          "oklch(15% 0.075 164)",
+          "oklch(26% 0.075 164)",
+          "oklch(38% 0.075 164)",
+          "oklch(49% 0.075 164)",
+          "oklch(61% 0.075 164)",
+          "oklch(72% 0.075 164)",
+          "oklch(84% 0.075 164)",
+          "oklch(95% 0.075 164)"
+        ]
+      },
+      "mint": {
+        "role": "secondary",
+        "displayName": "Menta",
+        "tonalRamp": [
+          "oklch(15% 0.025 160)",
+          "oklch(26% 0.025 160)",
+          "oklch(38% 0.025 160)",
+          "oklch(49% 0.025 160)",
+          "oklch(61% 0.025 160)",
+          "oklch(72% 0.025 160)",
+          "oklch(84% 0.025 160)",
+          "oklch(95% 0.025 160)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Marfim",
+        "tonalRamp": [
+          "oklch(15% 0.008 110)",
+          "oklch(26% 0.008 110)",
+          "oklch(38% 0.008 110)",
+          "oklch(49% 0.008 110)",
+          "oklch(61% 0.008 110)",
+          "oklch(72% 0.008 110)",
+          "oklch(84% 0.008 110)",
+          "oklch(95% 0.008 110)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Verde discreto",
+        "tonalRamp": [
+          "oklch(15% 0.025 160)",
+          "oklch(26% 0.025 160)",
+          "oklch(38% 0.025 160)",
+          "oklch(49% 0.025 160)",
+          "oklch(61% 0.025 160)",
+          "oklch(72% 0.025 160)",
+          "oklch(84% 0.025 160)",
+          "oklch(95% 0.025 160)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Borda vegetal",
+        "tonalRamp": [
+          "oklch(15% 0.015 140)",
+          "oklch(26% 0.015 140)",
+          "oklch(38% 0.015 140)",
+          "oklch(49% 0.015 140)",
+          "oklch(61% 0.015 140)",
+          "oklch(72% 0.015 140)",
+          "oklch(84% 0.015 140)",
+          "oklch(95% 0.015 140)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Branco",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "green-hover": {
+        "role": "primary",
+        "displayName": "Verde escurecido",
+        "tonalRamp": [
+          "oklch(15% 0.06 164)",
+          "oklch(26% 0.06 164)",
+          "oklch(38% 0.06 164)",
+          "oklch(49% 0.06 164)",
+          "oklch(61% 0.06 164)",
+          "oklch(72% 0.06 164)",
+          "oklch(84% 0.06 164)",
+          "oklch(95% 0.06 164)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Verde de foco",
+        "tonalRamp": [
+          "oklch(15% 0.09 165)",
+          "oklch(26% 0.09 165)",
+          "oklch(38% 0.09 165)",
+          "oklch(49% 0.09 165)",
+          "oklch(61% 0.09 165)",
+          "oklch(72% 0.09 165)",
+          "oklch(84% 0.09 165)",
+          "oklch(95% 0.09 165)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Título editorial",
+        "purpose": "Hero com Bodoni Moda local normal e itálica."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "state-color",
+        "value": "background-color .2s, color .2s",
+        "purpose": "Mudanças de estado; desativadas com movimento reduzido."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1400px"
+      },
+      {
+        "name": "compact",
+        "value": "1050px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "single-column",
+        "value": "600px"
+      },
+      {
+        "name": "narrow",
+        "value": "370px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ação principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Continuidade para revisão.",
+      "html": "<button class=\"ds-primary\">Continuar →</button>",
+      "css": ".ds-primary{font-family:Manrope,Arial,sans-serif;background:var(--green,#205e4c);color:white;min-height:48px;padding:0 22px;border:0;border-radius:8px;font-size:12px;font-weight:650;cursor:pointer;transition:background-color .2s,color .2s}.ds-primary:hover{background:#143f32}.ds-primary:focus-visible{outline:3px solid #499e85;outline-offset:4px}.ds-primary:disabled{opacity:.45;cursor:not-allowed}"
+    },
+    {
+      "name": "Adicionar serviço",
+      "kind": "button",
+      "refersTo": "button-add",
+      "description": "Ação secundária do catálogo.",
+      "html": "<button class=\"ds-add\">+ Adicionar</button>",
+      "css": ".ds-add{font-family:Manrope,Arial,sans-serif;background:var(--mint,#dcece4);color:var(--green,#205e4c);padding:9px 10px;border:0;border-radius:7px;font-size:10px;font-weight:700;transition:background-color .2s,color .2s}.ds-add:hover,.ds-add[aria-pressed=\"true\"]{background:var(--green,#205e4c);color:white}.ds-add:focus-visible{outline:3px solid #499e85;outline-offset:4px}"
+    },
+    {
+      "name": "Campo de revisão",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Preferências antes da mensagem.",
+      "html": "<label class=\"ds-field\">Seu nome<input placeholder=\"Como podemos chamar você?\"></label>",
+      "css": ".ds-field{font-family:Manrope,Arial,sans-serif;font-size:11px;color:var(--ink,#193b32);font-weight:650}.ds-field input{display:block;margin-top:8px;padding:12px;min-height:44px;background:white;color:var(--ink,#193b32);border:1px solid #b5c4b8;border-radius:7px;font:12px Manrope,Arial,sans-serif}.ds-field input:hover{border-color:var(--green,#205e4c)}.ds-field input:focus-visible{outline:3px solid #499e85;outline-offset:4px}"
+    },
+    {
+      "name": "Filtro de categoria",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "Categoria ativa do catálogo.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">Todos</button>",
+      "css": ".ds-filter{font-family:Manrope,Arial,sans-serif;padding:11px 16px;border:0;border-radius:24px;background:transparent;color:var(--muted,#52665e);font-size:11px;transition:background-color .2s,color .2s}.ds-filter:hover{background:var(--mint,#dcece4)}.ds-filter[aria-pressed=\"true\"]{background:var(--green,#205e4c);color:white}.ds-filter:focus-visible{outline:3px solid #499e85;outline-offset:4px}"
+    },
+    {
+      "name": "Navegação",
+      "kind": "nav",
+      "description": "Links de seção desktop.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#servicos\">Serviços</a><a href=\"#como-funciona\">Como agendar</a></nav>",
+      "css": ".ds-nav{display:flex;gap:34px;font-family:Manrope,Arial,sans-serif;font-size:13px}.ds-nav a{color:var(--ink,#193b32);text-decoration:none;transition:color .2s}.ds-nav a:hover{color:#348469}.ds-nav a:focus-visible{outline:3px solid #499e85;outline-offset:4px}"
+    },
+    {
+      "name": "Superfície de serviço",
+      "kind": "card",
+      "refersTo": "service-card",
+      "description": "Recorte textual do cartão; fotografia real é mantida na implementação.",
+      "html": "<article class=\"ds-card\"><h3>Cuidado selecionado</h3><p>Nome, duração e preço do catálogo.</p><span>✓ Selecionado</span></article>",
+      "css": ".ds-card{font-family:Manrope,Arial,sans-serif;background:white;color:var(--ink,#193b32);border:1px solid var(--green,#205e4c);border-radius:var(--radius,16px);overflow:hidden;padding:18px;max-width:300px}.ds-card h3{font-size:13px;font-weight:750;margin:0}.ds-card p{font-size:10px;line-height:1.65;color:var(--muted,#52665e)}.ds-card span{display:inline-block;background:var(--green,#205e4c);color:white;border-radius:20px;padding:5px 10px;font-size:9px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Estúdio botânico contemporâneo",
+    "overview": "Verde profundo, menta e marfim criam uma experiência acolhedora e contida. A tipografia editorial acompanha fotografias de cuidados; textos e controles permanecem precisos e legíveis.\n\nA seleção mantém preço e duração visíveis, com resumo persistente e revisão antes de abrir o WhatsApp. A identidade pertence a uma demonstração fictícia; não sugere equipe, disponibilidade ou reservas reais.",
+    "keyCharacteristics": [
+      "Fotografia como orientação do catálogo.",
+      "Bodoni Moda editorial e Manrope funcional.",
+      "Superfícies claras, verde sólido e bordas suaves."
+    ],
+    "rules": [],
+    "dos": [
+      "Do manter títulos em Bodoni Moda e controles em Manrope locais.",
+      "Do mostrar seleção por texto, ícone e cor.",
+      "Do preservar revisão da mensagem e confirmação humana."
+    ],
+    "donts": [
+      "Don't substituir fotos por ilustrações decorativas.",
+      "Don't tratar solicitação como reserva confirmada.",
+      "Don't introduzir sombras em cartões planos."
+    ]
+  }
+}
+

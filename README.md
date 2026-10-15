@@ -1,17 +1,18 @@
-# Projeto 03 — Agendamento Online
+# Forma — Salão & Barbearia
 
-Projeto independente do portfólio de Marcelo Andrade.
+Demonstração independente, feita com Next.js, React, TypeScript e Tailwind CSS. Nome, serviços, preços e durações fictícios.
 
-## Estado atual
-Repositório criado. Aplicação ainda não implementada e não publicada.
+## Executar
+`npm install` e `npm run dev -- --port 3003`. Abrir http://127.0.0.1:3003.
 
-## Proposta inicial
-Permitir consultar serviços, escolher data e horário e revisar uma solicitação de agendamento em uma experiência responsiva.
+## Validar
+`npm run build` e `npm run typecheck`.
 
-## Decisões pendentes
-- Segmento do negócio e identidade visual.
-- Serviços, duração, profissionais e disponibilidade.
-- Forma de confirmação e necessidade de painel administrativo.
-- Regras de cancelamento, fuso horário e persistência.
+## Funcionalidades
+Catálogo com fotos locais, categorias, busca sem acentos, seleção de múltiplos serviços, total e duração, data/horário preferidos e prévia copiável da mensagem. Para testar o WhatsApp, informar um destinatário autorizado com DDD. Não existe telefone real configurado nem confirmação automática de reserva. Dados do formulário ficam somente na memória da página.
 
-O escopo e a tecnologia serão definidos no chat dedicado antes da implementação. Não apresentar horários fictícios como disponibilidade real nem simular confirmação de reservas.
+## Design
+Watermelon UI consultado (hero-11 como referência de hierarquia, não instalado literalmente). Impeccable orientou contraste, estados, responsividade e documentação. Fotografia Pexels, créditos em public/creditos.html. Não foi usado conteúdo de outros estabelecimentos.
+
+## Publicação
+Esta entrega está em prévia local. Repositório remoto indicado pelo usuário: https://github.com/M4RC3L002/projeto-03-agendamento-online. Este diretório não altera o portfólio.
