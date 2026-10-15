@@ -15,4 +15,4 @@ Catálogo com fotos locais, categorias, busca sem acentos, seleção de múltipl
 Watermelon UI consultado (hero-11 como referência de hierarquia, não instalado literalmente). Impeccable orientou contraste, estados, responsividade e documentação. Fotografia Pexels, créditos em public/creditos.html. Não foi usado conteúdo de outros estabelecimentos.
 
 ## Publicação
-Esta entrega está em prévia local. Repositório remoto indicado pelo usuário: https://github.com/M4RC3L002/projeto-03-agendamento-online. Este diretório não altera o portfólio.
+Publicado em https://projeto-03-agendamento-online.vercel.app/ com Vercel. Repositório: https://github.com/M4RC3L002/projeto-03-agendamento-online. Este diretório não altera o portfólio.
