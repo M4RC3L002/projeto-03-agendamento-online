@@ -113,6 +113,8 @@ A hierarquia normativa está no frontmatter. No celular, títulos de seção pas
 
 ## Layout
 
+Títulos e textos de apresentação, categorias, informações dos serviços e rodapé centralizados. Contêiner principal de 1240px. Cabeçalho desktop com navegação no eixo central; no celular, marca e ação empilhadas ao centro. Resumo e campos de formulário preservam alinhamento de leitura.
+
 Contêiner central com largura máxima (1320px), incluindo margens internas de (48px). O hero divide texto e fotografia em (44% / 56%). Catálogo desktop usa duas colunas de cartões e resumo lateral de (285px), com intervalo (30px); o resumo acompanha a rolagem a (24px) do topo.
 
 Em até (1050px), margens laterais passam a (28px), resumo a (255px) e intervalo a (22px). Em até (760px), navegação textual e resumo lateral desaparecem; margens do conteúdo passam a (18px), e uma barra inferior fixa mostra contagem, total e continuidade, respeitando a área segura. O rodapé reserva (120px) inferiores. Catálogo e hero tornam-se uma coluna até (600px); entre (601px) e (760px), conservam composição lado a lado. Revisão passa de duas colunas para uma até (760px).

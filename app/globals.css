@@ -10,3 +10,45 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 @media(min-width:371px) and (max-width:600px){.hero{grid-template-columns:1fr}.hero-copy{padding:28px}.hero h1{font-size:44px}.hero-copy>p{max-width:none;font-size:12px}.hero-note{max-width:none;font-size:10px}.hero-photo{min-height:230px}.hero-photo>img{object-position:50% 42%}.photo-caption{left:18px;right:18px;font-size:22px}.service-grid{grid-template-columns:1fr}.service-photo{height:215px}.service h3{font-size:16px}.service-heading{flex-direction:row;align-items:center}.service-body>p{font-size:12px;min-height:0}.service-body{padding:18px}.duration{font-size:11px}.service-bottom strong{font-size:18px}.service-bottom button{font-size:12px;min-height:44px;padding:10px 14px}.service-photo>span{font-size:11px}.service-photo .selected-label{font-size:10px}}
+
+/* Central alignment requested for the presentation and service catalog. */
+header,main,footer{max-width:1240px}
+header{display:grid;grid-template-columns:1fr auto 1fr;gap:24px}
+header .brand{justify-self:start}
+.header-cta{justify-self:end}
+.hero-copy{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:38px 24px}
+.hero-copy>p{max-width:34ch;margin-left:auto;margin-right:auto}
+.hero-note{justify-content:center;max-width:none}
+.photo-caption{justify-content:center;gap:20px;text-align:center}
+.section-intro{flex-direction:column;justify-content:center;text-align:center;gap:14px}
+.section-intro p{max-width:none}
+.toolbar{justify-content:center;flex-wrap:wrap;gap:20px}
+.filters{justify-content:center}
+.service-heading{flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center}
+.service-body>p{text-align:center}
+.service-bottom{justify-content:center;gap:16px}
+.how{text-align:center}
+.how article>span{margin:0 auto}
+.how p{margin:0 auto}
+.about{flex-direction:column;justify-content:center;text-align:center;gap:16px}
+.about p{margin:0 auto}
+.about>a{margin:0}
+footer{justify-content:center;text-align:center;flex-wrap:wrap;gap:16px 28px}
+footer>a:last-child{margin-left:0;justify-content:center}
+@media(max-width:1050px){.search{width:190px}}
+@media(max-width:760px){
+ header{display:flex;flex-direction:column;height:auto;padding:22px 20px;gap:18px}
+ .header-cta{justify-self:auto}
+ .hero-copy{padding:30px 18px}
+ .hero-copy>p{max-width:30ch}
+ .toolbar{gap:16px}
+ .search{width:100%;max-width:330px}
+ .how article{display:flex;flex-direction:column;align-items:center;gap:7px}
+ .how h3{margin:4px 0 0}
+ .how p{max-width:32ch}
+ .about>div{flex:auto;min-width:0}
+ .about>a{margin:0}
+ footer{flex-direction:column;gap:12px}
+ footer p{margin:0}
+}
+

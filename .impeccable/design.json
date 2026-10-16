@@ -166,7 +166,15 @@
         "name": "narrow",
         "value": "370px"
       }
-    ]
+    ],
+    "presentationAlignment": {
+      "containerMaxWidth": "1240px",
+      "presentation": "center",
+      "serviceInformation": "center",
+      "desktopNavigation": "center",
+      "mobileHeader": "stacked-center",
+      "bookingFields": "start"
+    }
   },
   "components": [
     {
@@ -238,4 +246,3 @@
     ]
   }
 }
-
