@@ -1,4 +1,4 @@
-# Forma — Salão & Barbearia
+# Forma — Salão Feminino
 
 Demonstração independente, feita com Next.js, React, TypeScript e Tailwind CSS. Nome, serviços, preços e durações fictícios.
 
@@ -16,3 +16,6 @@ Watermelon UI consultado (hero-11 como referência de hierarquia, não instalado
 
 ## Publicação
 Publicado em https://projeto-03-agendamento-online.vercel.app/ com Vercel. Repositório: https://github.com/M4RC3L002/projeto-03-agendamento-online. Este diretório não altera o portfólio.
+
+## Calendário
+Agenda demonstrativa de uma atendente com dias e horários selecionáveis, duração acumulada dos serviços, pausa de almoço e janela de 60 dias. Não representa disponibilidade real. Integração administrativa pelo WhatsApp/Evolution API ainda não implementada.
