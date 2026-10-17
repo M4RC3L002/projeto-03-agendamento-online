@@ -3,22 +3,16 @@
 ## Platform
 web
 ## Stack
-Next.js, React, TypeScript e Tailwind, confirmados pelo usuário.
+Next.js, React, TypeScript e Tailwind, publicados no Vercel.
 ## Users
 Clientes de salão feminino; demonstração comercial para potenciais clientes de Marcelo Andrade.
 ## Product Purpose
-Escolher serviços e preparar uma solicitação de horário pelo WhatsApp.
+Selecionar serviços e reservar um horário de demonstração no próprio navegador.
 ## Capabilities and Constraints
-Nome, valores e catálogo fictícios autorizados. Não inventar disponibilidade nem confirmar reservas. Telefone real ainda não fornecido; permitir revisar/copiar mensagem e configurar destinatário para testar.
+Uma atendente. Marca, catálogo, preços e duração fictícios. Agenda de 60 dias em America/Sao_Paulo, domingo fechado e pausa de almoço. Reservas bloqueiam todos os intervalos sobrepostos à duração total dos serviços. Nome, telefone, rascunho e reservas persistem em localStorage. A confirmação só ocorre após a gravação bem-sucedida. Reservas podem ser consultadas e canceladas. Abas do mesmo navegador recebem atualizações de reservas; Web Locks serializa gravações quando disponível.
+## Operating Context
+Rotas: /, /servicos, /agenda, /revisao, /confirmacao, /reservas, /sobre e /como-funciona. Dados mantidos ao navegar e recarregar. Sem WhatsApp, Evolution API, servidor de reservas, pagamentos ou sincronização entre dispositivos. Limpar os dados do site remove as reservas locais. O salão não recebe notificações.
 ## Brand Commitments
-Salão feminino com uma única atendente; referências mobile fornecidas. Nome fictício Forma escolhido para esta demonstração. Paleta verde proposta pelo assistente, ainda ajustável.
-## Evidence on Hand
-Cinco referências visuais anexadas. Fotografias de banco de imagens encontradas na web. Não há estabelecimento ou equipe reais.
+Salão feminino com uma única atendente; identidade Forma em verde, menta e marfim, conteúdo centralizado e fotos ilustrativas.
 ## Product Principles
-Priorizar celular, clareza de preços e confirmação humana. Preservar portfólio e demais projetos.
-
-## Agenda demonstrativa
-Calendário de 60 dias, horários de exemplo compatíveis com a duração total dos serviços e fuso America/Sao_Paulo. Domingo fechado, pausa de almoço e períodos ocupados fictícios. Sem banco de reservas e sem integração Evolution API nesta etapa.
-
-## Navegação por telas
-Fluxo em rotas reais: início /, serviços /servicos, calendário /agenda e dados/revisão /revisao. /sobre e /como-funciona são páginas independentes. Estado compartilhado durante a navegação mantém serviços, data, horário e dados ao voltar. Recarregar a página reinicia o rascunho; acesso direto a etapas sem escolhas retorna à etapa necessária. Sem navegação por rolagem.
+Priorizar o celular; mostrar total e duração antes de reservar; distinguir reserva local de atendimento real; preservar os outros projetos.

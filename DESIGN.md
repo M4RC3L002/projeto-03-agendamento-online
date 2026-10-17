@@ -1,6 +1,6 @@
 ---
 name: Forma
-description: Catálogo fotográfico de cuidados com revisão de solicitação pelo WhatsApp.
+description: Catálogo fotográfico de cuidados com reserva local no navegador.
 colors:
   ink: "#193b32"
   green: "#205e4c"
@@ -155,3 +155,5 @@ Calendário integrado: mês navegável, semana de segunda a domingo, seleção �
 
 ## Fluxo do aplicativo
 Cada etapa é uma tela própria, com título, botão de voltar e indicador de progresso em três passos. Início apresenta somente a abertura. Serviços, agenda e revisão aparecem em rotas separadas; revisão ocupa a página, sem modal. Barra inferior mobile conduz à próxima etapa e informa o total. Contexto compartilhado preserva escolhas ao navegar e voltar.
+
+Reservas locais: revisão com formulário de nome e telefone, botão Reservar horário e confirmação em página própria. Minhas reservas mostra cartões, referência local e cancelamento com confirmação inline. Mensagens deixam explícito que os dados ficam neste navegador e não notificam o salão. Erros de armazenamento não podem parecer confirmação de reserva.

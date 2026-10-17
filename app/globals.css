@@ -137,3 +137,33 @@ footer>a:last-child{margin-left:0;justify-content:center}
 }
 
 @media(max-width:760px){.flow-header .header-cta{display:none}}
+
+.hero-reservations{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:10px;font-size:12px;text-decoration:underline;text-underline-offset:4px;color:var(--green)}
+.storage-warning{max-width:960px;padding:15px 18px;margin:12px auto 22px;background:#fbe4dc;color:#852b1b;border-radius:9px;font-size:12px;line-height:1.8;text-align:center}
+.reservation-confirmation,.reservations-screen{max-width:960px;margin:12px auto 0;text-align:center}
+.reservation-confirmation>h1,.reservations-screen .section-intro h1{font-family:Bodoni,Georgia,serif;font-size:38px;font-weight:400;letter-spacing:-.025em;line-height:1.2;margin:18px 0 12px}
+.confirmation-check{display:grid;place-items:center;width:68px;height:68px;border-radius:50%;background:var(--mint);color:var(--green);margin:12px auto 22px}
+.local-reservation-note{font-size:13px;line-height:1.8;color:var(--muted);margin:0 auto 25px}
+.reservation-detail{max-width:620px;margin:0 auto;padding:28px;background:white;border:1px solid var(--line);border-radius:16px;text-align:left}
+.reservation-detail h2{font-size:27px;text-align:center}
+.reservation-detail>p{font-size:13px;line-height:1.9;color:var(--muted);margin:12px 0}
+.reservation-detail>p:first-of-type{text-align:center}
+.reservation-detail .booking-services{margin:20px 0}
+.reservation-detail small{font-size:10px;color:var(--muted)}
+.reservation-actions{display:flex;justify-content:center;align-items:center;gap:16px 28px;flex-wrap:wrap;margin:28px 0 10px}
+.reservation-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;text-align:left}
+.reservation-card{padding:25px;background:white;border:1px solid var(--line);border-radius:16px;min-width:0}
+.reservation-card-heading{display:flex;flex-direction:column;gap:10px;align-items:flex-start;margin-bottom:18px}
+.reservation-card h2{font-size:27px;margin:0}
+.reservation-card-heading>span{font-size:10px;color:var(--green);background:var(--mint);padding:6px 10px;border-radius:20px}
+.reservation-card>p{font-size:12px;color:var(--muted);line-height:1.8;margin:10px 0;overflow-wrap:anywhere}
+.cancel-reservation{background:transparent;color:var(--green);font-size:12px;text-decoration:underline;text-underline-offset:4px;min-height:44px;padding:8px 0}
+.cancel-confirm{margin-top:18px;background:var(--mint);padding:16px;border-radius:9px;font-size:12px;line-height:1.8}
+.cancel-confirm p{margin:0 0 12px}
+.cancel-confirm>div{display:flex;flex-wrap:wrap;gap:8px 16px}
+.cancel-confirm button{min-height:44px;padding:9px 12px;border-radius:7px;background:var(--green);color:white;font-size:11px}
+.cancel-confirm button:last-child{background:transparent;color:var(--green)}
+.reservations-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:45px 20px;color:var(--muted);gap:15px}
+.reservations-empty h2{margin:0;font-size:29px}
+.reservations-empty p{font-size:12px;line-height:1.8;margin:0}
+@media(max-width:760px){.reservation-confirmation>h1,.reservations-screen .section-intro h1{font-size:30px}.reservation-list{grid-template-columns:1fr}.reservation-card,.reservation-detail{padding:22px 18px}.reservation-detail h2,.reservation-card h2{font-size:25px}.reservation-actions{flex-direction:column;gap:8px}.local-reservation-note{font-size:12px}.reservation-confirmation .fine{font-size:11px}.storage-warning{font-size:11px}}

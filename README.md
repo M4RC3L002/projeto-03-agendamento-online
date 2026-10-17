@@ -1,24 +1,17 @@
 # Forma — Salão Feminino
 
-Demonstração independente, feita com Next.js, React, TypeScript e Tailwind CSS. Nome, serviços, preços e durações fictícios.
+Demonstração com Next.js, React, TypeScript e Tailwind CSS. Site: https://projeto-03-agendamento-online.vercel.app/
 
-## Executar
-`npm install` e `npm run dev -- --port 3003`. Abrir http://127.0.0.1:3003.
+## Executar e verificar
+`npm install`, `npm run dev`. Para produção: `npm run build`, `npm start`. Verificação de tipos: `npm run typecheck`.
 
-## Validar
-`npm run build` e `npm run typecheck`.
+## Reservas locais
+A cliente escolhe serviços, data e horário, informa nome e telefone e clica em Reservar horário. A reserva é gravada no localStorage antes da confirmação. O período inteiro fica indisponível para outros horários neste navegador. Minhas reservas permite consultar e cancelar, liberando o período novamente.
 
-## Funcionalidades
-Catálogo com fotos locais, categorias, busca sem acentos, seleção de múltiplos serviços, total e duração, data/horário preferidos e prévia copiável da mensagem. Para testar o WhatsApp, informar um destinatário autorizado com DDD. Não existe telefone real configurado nem confirmação automática de reserva. Dados do formulário ficam somente na memória da página.
+Chaves: forma.reservations.v1 e forma.draft.v1. Rascunho e reservas são restaurados após recarregar. Eventos storage atualizam outras abas; Web Locks serializa as gravações quando suportado. A gravação relê o armazenamento e revalida disponibilidade. Falha ao salvar não confirma reserva.
 
-## Design
-Watermelon UI consultado (hero-11 como referência de hierarquia, não instalado literalmente). Impeccable orientou contraste, estados, responsividade e documentação. Fotografia Pexels, créditos em public/creditos.html. Não foi usado conteúdo de outros estabelecimentos.
+## Limites da demonstração
+Marca, serviços, preços e horários-base fictícios. Não envia WhatsApp, não notifica o salão e não sincroniza entre dispositivos. Limpar os dados do site remove as reservas locais. Evolution API ainda não integrada. Fotografias e fontes têm créditos em public/creditos.html e public/fonts.
 
-## Publicação
-Publicado em https://projeto-03-agendamento-online.vercel.app/ com Vercel. Repositório: https://github.com/M4RC3L002/projeto-03-agendamento-online. Este diretório não altera o portfólio.
-
-## Calendário
-Agenda demonstrativa de uma atendente com dias e horários selecionáveis, duração acumulada dos serviços, pausa de almoço e janela de 60 dias. Não representa disponibilidade real. Integração administrativa pelo WhatsApp/Evolution API ainda não implementada.
-
-## Telas do aplicativo
-Início /, serviços /servicos, calendário /agenda, revisão /revisao, sobre /sobre e como agendar /como-funciona. Navegação real com Next Link/Router e estado compartilhado em BookingProvider. As escolhas são mantidas ao voltar entre telas; um recarregamento reinicia o rascunho.
+## Rotas
+/, /servicos, /agenda, /revisao, /confirmacao, /reservas, /sobre, /como-funciona.

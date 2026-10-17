@@ -197,6 +197,13 @@
       "progressSteps": 3,
       "review": "full-page",
       "state": "shared-memory-context"
+    },
+    "reservations": {
+      "persistence": "localStorage",
+      "scope": "this-browser",
+      "confirmation": "full-page-after-write",
+      "cancellation": "inline-confirmation",
+      "busyIntervals": "full-service-duration"
     }
   },
   "components": [
