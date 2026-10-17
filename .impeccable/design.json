@@ -183,6 +183,20 @@
       "availableBackground": "#edf4ed",
       "timezone": "America/Sao_Paulo",
       "data": "illustrative-only"
+    },
+    "navigation": {
+      "type": "multi-screen-routes",
+      "routes": [
+        "/",
+        "/servicos",
+        "/agenda",
+        "/revisao",
+        "/sobre",
+        "/como-funciona"
+      ],
+      "progressSteps": 3,
+      "review": "full-page",
+      "state": "shared-memory-context"
     }
   },
   "components": [

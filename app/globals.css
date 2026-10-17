@@ -88,3 +88,52 @@ footer>a:last-child{margin-left:0;justify-content:center}
 .booking-date-summary p{font-size:12px;margin:8px 0;color:var(--ink)}
 .booking-date-summary button{font-size:11px;color:var(--green);background:transparent;padding:8px 0;text-decoration:underline;text-underline-offset:4px}
 @media(max-width:760px){.agenda-section{padding-top:45px}.availability-picker{grid-template-columns:1fr;padding:20px 14px;gap:25px}.month-bar h3{font-size:23px}.calendar-days button{min-height:44px}.slots-panel{border-top:1px solid var(--line);padding-top:25px}.slots-heading{justify-content:center;text-align:center}.slots-heading h3{font-size:15px}.slots-empty{min-height:160px}.agenda-action>p{font-size:11px}.agenda-disclaimer{font-size:11px}.time-slots-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+.screen-main{min-height:calc(100dvh - 260px);padding-bottom:36px}
+.screen-main .hero{margin-top:8px}
+.screen-navigation{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:15px 0 20px;font-size:11px;color:var(--muted)}
+.back-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:var(--green);font-weight:650}
+.step-progress{display:flex;justify-content:center;gap:28px;padding:12px 0 32px;margin:0 auto 10px;max-width:650px}
+.step-progress>a,.step-progress>.step-locked{display:flex;align-items:center;gap:9px;min-height:44px;font-size:12px;color:var(--muted)}
+.step-progress>a>span,.step-progress>.step-locked>span{display:grid;place-items:center;height:30px;width:30px;flex-shrink:0;background:#e4ece2;border-radius:50%;font-size:11px}
+.step-progress>a[aria-current=step]{color:var(--green);font-weight:750}
+.step-progress>a[aria-current=step]>span{background:var(--green);color:white}
+.step-progress>.step-locked{opacity:.6}
+.screen-main .services-section,.screen-main .agenda-section{padding-top:8px}
+.screen-main .section-intro h1,.review-screen h1,.screen-main>.how h1,.screen-main>.about h1{font-family:Bodoni,Georgia,serif;font-size:36px;font-weight:400;line-height:1.2;letter-spacing:-.025em;margin:0 0 12px}
+.screen-main>.how{margin:10px auto 0;padding:25px 0;border:0}
+.screen-main>.how h1{text-align:center;margin-bottom:36px}
+.screen-main>.about{margin-top:25px;padding:45px 30px}
+.review-screen{max-width:960px;background:white;border:1px solid var(--line);padding:32px;margin:auto}
+.review-screen .booking-top{justify-content:center;text-align:center}
+.review-screen>p{text-align:center}
+.review-screen .send{max-width:550px;margin-left:auto;margin-right:auto;display:flex}
+.review-screen .booking-services>div{font-size:12px}
+.flow-redirect{text-align:center;padding:65px 20px;font-size:14px}
+.flow-redirect a{text-decoration:underline}
+.footer-links{display:flex;gap:20px;justify-content:center;align-items:center;flex-wrap:wrap}
+.footer-links>a{display:inline-flex;align-items:center;gap:6px;min-height:35px}
+.app-header nav a[aria-current=page]{color:var(--green);font-weight:750}
+@media(max-width:760px){
+ .screen-main{padding-bottom:20px;min-height:calc(100dvh - 280px)}
+ .flow-main{padding-bottom:20px}
+ .screen-navigation{padding-top:0;padding-bottom:8px;gap:8px;font-size:10px}
+ .back-link{font-size:11px}
+ .step-progress{display:flex;gap:10px;justify-content:space-between;padding:3px 0 22px;margin:0}
+ .step-progress>a,.step-progress>.step-locked{flex-direction:column;gap:5px;font-size:10px;min-width:78px;text-align:center}
+ .step-progress>a>span,.step-progress>.step-locked>span{width:28px;height:28px}
+ .screen-main .section-intro h1,.review-screen h1,.screen-main>.how h1,.screen-main>.about h1{font-size:29px}
+ .screen-main .section-intro p{font-size:12px}
+ .screen-main .services-section,.screen-main .agenda-section{padding-top:4px}
+ .flow-main .agenda-action>.primary{display:none}
+ .review-screen{padding:24px 16px}
+ .review-screen .booking-grid{gap:25px}
+ .app-header{padding:20px;gap:12px}
+ .flow-main~footer{padding-bottom:120px}
+ .flow-bottom .primary{min-width:154px;font-size:11px;padding:0 15px;gap:12px}
+ .flow-bottom small{max-width:145px;line-height:1.5}
+ .screen-main>.about{padding:30px 20px}
+ footer{padding-bottom:30px}
+}
+
+@media(max-width:760px){.flow-header .header-cta{display:none}}

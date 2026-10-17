@@ -19,3 +19,6 @@ Publicado em https://projeto-03-agendamento-online.vercel.app/ com Vercel. Repos
 
 ## Calendário
 Agenda demonstrativa de uma atendente com dias e horários selecionáveis, duração acumulada dos serviços, pausa de almoço e janela de 60 dias. Não representa disponibilidade real. Integração administrativa pelo WhatsApp/Evolution API ainda não implementada.
+
+## Telas do aplicativo
+Início /, serviços /servicos, calendário /agenda, revisão /revisao, sobre /sobre e como agendar /como-funciona. Navegação real com Next Link/Router e estado compartilhado em BookingProvider. As escolhas são mantidas ao voltar entre telas; um recarregamento reinicia o rascunho.

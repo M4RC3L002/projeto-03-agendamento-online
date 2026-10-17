@@ -152,3 +152,6 @@ Foco de teclado: contorno verde (3px), afastado (4px). Mudanças de cor duram (.
 - Don't introduzir sombras em cartões planos.
 
 Calendário integrado: mês navegável, semana de segunda a domingo, seleção única de dia e horário. Dias disponíveis têm fundo verde suave e marcador; selecionados usam verde profundo. Horários em grade com alvos mínimos de 44px. Duas colunas no desktop e empilhamento no celular. A indicação demonstrativa permanece visível antes da seleção.
+
+## Fluxo do aplicativo
+Cada etapa é uma tela própria, com título, botão de voltar e indicador de progresso em três passos. Início apresenta somente a abertura. Serviços, agenda e revisão aparecem em rotas separadas; revisão ocupa a página, sem modal. Barra inferior mobile conduz à próxima etapa e informa o total. Contexto compartilhado preserva escolhas ao navegar e voltar.

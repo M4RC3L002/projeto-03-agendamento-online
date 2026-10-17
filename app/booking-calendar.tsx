@@ -7,7 +7,7 @@ type Props = { today: string; currentMinute: number; duration: number; date: str
 const fullDate = (day: string) => new Date(`${day}T12:00:00Z`).toLocaleDateString('pt-BR', {timeZone:'UTC',weekday:'long',day:'numeric',month:'long'});
 
 export default function BookingCalendar({today,currentMinute,duration,date,time,onDate,onTime,compact=false}:Props) {
-  const [offset, setOffset] = useState(0);
+  const [offset, setOffset] = useState(()=>date&&today?(Number(date.slice(0,4))-Number(today.slice(0,4)))*12+Number(date.slice(5,7))-Number(today.slice(5,7)):0);
   if (!today) return <p role="status">Carregando calendário…</p>;
   const anchor = new Date(`${today}T12:00:00Z`);
   const first = new Date(Date.UTC(anchor.getUTCFullYear(),anchor.getUTCMonth()+offset,1,12));

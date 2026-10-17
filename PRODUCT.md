@@ -19,3 +19,6 @@ Priorizar celular, clareza de preços e confirmação humana. Preservar portfól
 
 ## Agenda demonstrativa
 Calendário de 60 dias, horários de exemplo compatíveis com a duração total dos serviços e fuso America/Sao_Paulo. Domingo fechado, pausa de almoço e períodos ocupados fictícios. Sem banco de reservas e sem integração Evolution API nesta etapa.
+
+## Navegação por telas
+Fluxo em rotas reais: início /, serviços /servicos, calendário /agenda e dados/revisão /revisao. /sobre e /como-funciona são páginas independentes. Estado compartilhado durante a navegação mantém serviços, data, horário e dados ao voltar. Recarregar a página reinicia o rascunho; acesso direto a etapas sem escolhas retorna à etapa necessária. Sem navegação por rolagem.
